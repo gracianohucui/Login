@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/*Versão para outras telas/*
+
+/*
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768 até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Tablet*/
+    section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 520px;
+    width: 600px;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 3.5px rgb(4, 171, 212);
+
+    }
+
+    hr{
+        width: 450px;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+
+    p#formula{
+        width: 400px;
+        margin: auto;
+        padding: 18px;
+
+    }
+
+    input{
+        box-shadow: -2px -2px -2px black;
+        padding: 5px;
+        border-radius: 5px;
+        width: 390px;
+        margin-top: 7px;
+        height: 25px;
+
+    }
+
+    div#logar{
+    background-color: rgba(5, 178, 221, 0.829);
+    padding: 14px;
+    border-radius: 5px;
+    width: 250px;
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 2.2px black;
+    margin-bottom: 40px;
+
+    }
+
+    footer{
+    background-color: rgba(5, 178, 221, 0.055);
+    width: 580px;
+    height: 109px;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    }
+
+    footer > div{
+        display: inline-block;
+        position: relative;
+        right: -51%;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
+    section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 520px;
+    width: 750px;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 3.5px rgb(4, 171, 212);
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(3, 103, 128);
+        text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.363);
+
+    }
+
+    hr{
+        width: 550px;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+
+    p#formula{
+        margin: auto;
+        padding: 18px;
+
+    }
+
+    input{
+        box-shadow: -2px -2px -2px black;
+        padding: 8px;
+        border-radius: 5px;
+        width: 345px;
+        margin-top: 7px;
+        height: 25px;
+
+    }
+
+    div#logar{
+    background-color: rgba(5, 178, 221, 0.829);
+    padding: 14px;
+    border-radius: 5px;
+    width: 250px;
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 2.2px black;
+    margin-bottom: 40px;
+
+    }
+
+    footer{
+    background-color: rgba(5, 178, 221, 0.055);
+    width: 728.6px;
+    height: 89px;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    }
+
+    footer > div{
+        display: inline-block;
+        position: relative;
+        right: -61%;
+
+    }
+
+}
+
+@media screen and (min-width: 1200px) { /*TV*/
+    section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 520px;
+    width: 900px;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 3.5px rgb(4, 171, 212);
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(3, 103, 128);
+        text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.363);
+
+    }
+
+    hr{
+        width: 550px;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+
+    form{
+    margin: auto;
+    width: 500px;
+
+    }
+
+    p#formula{
+        width: 500px;
+        padding: 18px;
+
+    }
+
+    input{
+        box-shadow: -2px -2px -2px black;
+        padding: 8px;
+        border-radius: 5px;
+        width: 450px;
+        margin-top: 7px;
+        height: 30px;
+
+    }
+
+    div#logar{
+    background-color: rgba(5, 178, 221, 0.829);
+    padding: 14px;
+    border-radius: 5px;
+    width: 250px;
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 2.2px black;
+    margin-bottom: 40px;
+
+    }
+
+    footer{
+    background-color: rgba(5, 178, 221, 0.055);
+    width: 879.5px;
+    height: 80px;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    }
+
+    footer > div{
+        display: inline-block;
+        position: relative;
+        right: -68%;
+
+    }
+
+}

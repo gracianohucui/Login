@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/*Versão para telefone*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 520px;
+    width: 340px;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 3.5px rgb(4, 171, 212);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(3, 103, 128);
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.363);
+
+}
+
+hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+form{
+    margin: auto;
+    width: 430px;
+
+}
+
+p#formula{
+    width: 350px;
+    margin: auto;
+    padding: 18px;
+
+}
+
+label{
+    color: rgb(2, 74, 92);
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.363);
+
+}
+
+input{
+    box-shadow: -2px -2px -2px black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 247px;
+    margin-top: 7px;
+    height: 25px;
+
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.288);
+    font-size: 12px;
+
+}
+
+div#logar{
+    background-color: rgba(5, 178, 221, 0.829);
+    padding: 10px;
+    border-radius: 5px;
+    width: 140px;
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 2.2px black;
+    margin-bottom: 40px;
+
+}
+
+div#logar:hover{
+    background-color: rgba(6, 136, 168, 0.829);
+    transition-duration: 0.3s;
+    box-shadow: 0.5px 0.5px 3px black;
+
+}
+
+a > div#logar{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+a#log{
+    text-decoration: none;
+
+}
+
+footer{
+    background-color: rgba(5, 178, 221, 0.055);
+    width: 322px;
+    height: 115.4px;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+footer > div{
+    display: inline-block;
+    position: relative;
+    right: -12%;
+
+}
+
+footer > div > a{
+    text-decoration: none;
+
+}
+
+div#conta{
+    font-size: 13.5px;
+    margin-right: 8px;
+
+}
+
+div#conta > a > p{
+    color: rgba(0, 0, 0, 0.425);
+
+}
+
+div#cadastrar{
+    background-color: white;
+    border: 1px solid rgb(199, 199, 5);
+    border-radius: 4px;
+    padding: 3px;
+
+}
+
+div#cadastrar:hover{
+    background-color: white;
+    transition-duration: 0.3s;
+    box-shadow: 0.5px 0.5px 3px rgb(199, 199, 5);
+
+}
+
+div#cadastrar > a > p{
+    color: rgba(5, 178, 221, 0.726);
+    font-weight: bold;
+
+}
